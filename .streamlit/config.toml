@@ -1,0 +1,8 @@
+# Native widgets and canvas-rendered tables inherit the same dark palette.
+[theme]
+base = "dark"
+primaryColor = "#9E2A2B"
+backgroundColor = "#0F1117"
+secondaryBackgroundColor = "#181B24"
+textColor = "#F2EDE4"
+font = "sans serif"

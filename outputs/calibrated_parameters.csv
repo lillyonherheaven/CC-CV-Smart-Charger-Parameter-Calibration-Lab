@@ -1,0 +1,12 @@
+section,parameter,value,unit
+calibration,capacity_ah,2.1204705576927,Ah
+calibration,current_a,1.0,A
+calibration,resistance_ohm,0.18032621867091267,ohm
+calibration,eta,0.995,fraction
+calibration,ocv_empty_v,3.0,V
+calibration,ocv_slope_v,1.2,V/SoC fraction
+calibration,vmax_v,4.2,V
+calibration,soc0,0.23044936286249712,fraction
+calibration,cutoff_a,0.1,A
+calibration,mode,CC/CV,categorical
+calibration,tau_sec,1152.893781321787,s

@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "names": [
+    "capacity_ah",
+    "resistance_ohm",
+    "soc0"
+  ],
+  "weighted_sum_squares": 240.81496661890284,
+  "n_observations": 213,
+  "jacobian_rank": 3,
+  "scaled_jacobian_condition": 6.938330378215397,
+  "warnings": [],
+  "parameters": {
+    "capacity_ah": 2.1204705576927,
+    "current_a": 1.0,
+    "resistance_ohm": 0.18032621867091267,
+    "eta": 0.995,
+    "ocv_empty_v": 3.0,
+    "ocv_slope_v": 1.2,
+    "vmax_v": 4.2,
+    "soc0": 0.23044936286249712,
+    "cutoff_a": 0.1,
+    "mode": "CC/CV"
+  },
+  "metrics": [
+    {
+      "channel": "voltage_v",
+      "unit": "V",
+      "n": 71,
+      "MAE": 0.004887829098674045,
+      "RMSE": 0.006064838508056275,
+      "max_error": 0.01890544880123901,
+      "bias_exp_minus_model": 0.00012945782765363994
+    },
+    {
+      "channel": "current_a",
+      "unit": "A",
+      "n": 71,
+      "MAE": 0.007491105448781831,
+      "RMSE": 0.008965863011347512,
+      "max_error": 0.01979012285768241,
+      "bias_exp_minus_model": 0.0002762904233220836
+    },
+    {
+      "channel": "soc_est",
+      "unit": "fraction",
+      "n": 71,
+      "MAE": 0.0023988343564003626,
+      "RMSE": 0.003166369322149416,
+      "max_error": 0.01129811453869256,
+      "bias_exp_minus_model": 0.00027451949630746857
+    }
+  ],
+  "scope": "In-sample fit; not independent experimental validation.",
+  "synthetic_truth": {
+    "capacity_ah": 2.12,
+    "current_a": 1.0,
+    "resistance_ohm": 0.18,
+    "eta": 0.995,
+    "ocv_empty_v": 3.0,
+    "ocv_slope_v": 1.2,
+    "vmax_v": 4.2,
+    "soc0": 0.23,
+    "cutoff_a": 0.1,
+    "mode": "CC/CV"
+  },
+  "exact_switch_sec": 4751.140477304789,
+  "exact_stop_sec": 7405.776511981872,
+  "target_95_percent_sec": 6019.811281240922
+}

@@ -1,0 +1,12 @@
+section,parameter,value,unit
+simulation,capacity_ah,2.0,Ah
+simulation,current_a,1.0,A
+simulation,resistance_ohm,0.15,ohm
+simulation,eta,0.995,fraction
+simulation,ocv_empty_v,3.0,V
+simulation,ocv_slope_v,1.2,V/SoC fraction
+simulation,vmax_v,4.2,V
+simulation,soc0,0.2,fraction
+simulation,cutoff_a,0.1,A
+simulation,mode,CC/CV,categorical
+simulation,tau_sec,904.5226130653267,s
