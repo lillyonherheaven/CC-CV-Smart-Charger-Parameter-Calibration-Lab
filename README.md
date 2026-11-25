@@ -31,7 +31,7 @@ The three calculation tabs have independent settings and submit buttons: Section
 
 The sample is synthetic and independent of slider changes. Leave termination **off** when fitting it. Use **Auto-calibrate** in Section 3. For real data enter the actual charger settings in that section first. CSV columns: `time_sec,voltage_v,current_a,soc_est`; at least one measured channel is required. SoC is a fraction, not a percentage.
 
-Physics plots show +R slope for inward charging current and −R for outward discharge current, linear CC/rate laws, affine and illustrative curved OCV, exponential current taper and its semilog form. Curved OCV is explicitly an illustration; engine/calibration use affine OCV. Regulated CV approaches its full equilibrium asymptotically; practical completion uses the current cutoff.
+Physics plots show +R slope for inward charging current and −R for outward discharge current, linear CC/rate laws, affine and illustrative curved OCV, exponential current taper and its semilog form. Curved OCV is explicitly an illustration; engine/calibration use affine OCV. Regulated CV approaches its full equilibrium asymptotically; practical completion uses the current cutoff
 
 The export tab's single ZIP button packages summaries (TXT/Markdown/JSON), parameter and error CSVs, trajectory/relationship tables, all available 300-dpi figures, and allowlisted source/report/presentation files. Apply each form before downloading. For an offline example open `outputs/presentation_bundle.zip`. The source ZIP excludes the virtual environment.
 
